@@ -3,9 +3,9 @@ package se.lexicon.choon;
 
 public class Car {
 
-    String carBrand
-    String carReg
-    int carSpeed
+    String carBrand;
+    String carReg;
+    int carSpeed;
 
     public static void main (String[]args) {
 
