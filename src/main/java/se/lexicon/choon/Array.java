@@ -6,26 +6,25 @@ public class Array {
     //print it out.
     //Expected output: 11 23 39 etc.
 
-    numbers();
 
-
-    int[] numbers = new int[4];
-
-    numbers[0] = 11;
-    numbers[1] = 23;
-    numbers[2] = 39;
-    numbers[3] = 45;
-/*
-    private int[] numbers = {
-            "11, 23, 39, 45"
-    };
-    */
 
 
     public static void main(String[] args) {
 
+        int[] numbers = new int[5];
 
-        for (int value : numbers) {
+        numbers[0] = 11;
+        numbers[1] = 23;
+        numbers[2] = 39;
+        numbers[3] = 45;
+
+        for (int i = 0; i < numbers.length; i++) {
+            int value = numbers[i];
             System.out.println(value);
+
+    }
+
+
+
     }
 }
