@@ -1,6 +1,5 @@
 package se.lexicon.choon;
 
-Car
 
 public class Car {
 
